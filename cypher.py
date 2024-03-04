@@ -1,3 +1,5 @@
+#Aidan Lembcke
+#SN: 340930908
 def cypher(word, shift):
     shift = int(shift)%26
     word = word.lower()
