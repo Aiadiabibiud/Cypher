@@ -1,6 +1,10 @@
 #Aidan Lembcke
 #SN: 340930908
 def cypher(word, shift):
+    '''
+    This function takes an alphanumeric value and an integer value and shifts all of the alphabetical characters
+    by the integer provided
+    '''
     shift = int(shift)%26
     word = word.lower()
     chs = ''
